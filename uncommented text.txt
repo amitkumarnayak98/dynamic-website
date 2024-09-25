@@ -1,0 +1,95 @@
+/* .web_body-img {
+  width: 25%;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.web-image {
+  width: 170px;
+}
+
+.list_item {
+  color: blue;
+  text-transform: uppercase;
+}
+
+.web_nav-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.web_nav-body {
+  display: flex;
+  gap: 50px;
+}
+
+.web_body-header {
+  display: flex;
+}
+
+.web_nav-lists {
+}
+
+.web_nav-body {
+  list-style-type: none;
+}
+
+.web_footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+} */
+
+
+=====================================================
+
+
+<!-- <section>
+      <div class="web_body">
+        <div class="web_body-header">
+          <div class="web_body-img">
+            <img
+              src="./images/logo-7.png"
+              id="web-logo"
+              alt=""
+              class="web-image"
+            />
+          </div>
+          <nav>
+            <div class="web_nav-lists">
+              <ul class="web_nav-body">
+                <li>About Us</li>
+                <li>Alumini</li>
+                <li>Bhubaneswar Campus</li>
+              </ul>
+              <ul class="web_nav-body" id="temp-list"></ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section id="header"></section> -->
+
+
+=====================================
+
+ //==================================
+      // var listItems = [
+      //   "Academics",
+      //   "Admissions",
+      //   "Placements",
+      //   "Research",
+      //   "Entrepreneurship",
+      //   "Campus Life",
+      // ];
+
+      // const listHTML = listItems
+      //   .map((eachItem) => `<li class="list_item">${eachItem}</li>`)
+      //   .join("");
+      // document.getElementById("temp-list").innerHTML = listHTML;
+
+      //======================

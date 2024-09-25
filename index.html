@@ -3,7 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Practice Website</title>
+    <link rel="icon" href="./images/gear.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="ws_header">
+        <h1>Galleon</h1>
+        <span>
+          <ul class="ws_header-nav" id="header-nav"></ul>
+        </span>
+        <span class="ws_header-image">
+          <a href="" class="fa fa-linkedin"></a>
+          <a href="" class="fa fa-dribbble"></a>
+          <a href="" class="fa fa-youtube"></a>
+        </span>
+      </div>
+    </header>
+    <section id="section0">
+      <div class="ws_body">
+        <div class="ws_body-header">
+          <h1>Full-Stack <br />Developer</h1>
+          <div class="ws_body-btn" id="hireMeBtn" onclick="timeClock()">
+            <span class="btn-text"> Hire Me </span>
+            <span id="arrow" class="arrow"></span>
+          </div>
+        </div>
+      </div>
+      <div class="ws_footer-note">
+        <span
+          ><h3>Open To Work</h3>
+          <p id="asterisk-one" class="asterisk-one"></p
+        ></span>
+        <p>Based in India</p>
+      </div>
+      <div id="triple-arrow" class="triple-arrow">
+        <span></span><span></span><span></span>
+      </div>
+    </section>
+    <section id="section1">
+      <div class="ws_about">
+        <div class="ws_logo-marq"></div>
+        <marquee width="100%" direction="left" height="60px" class="ws_marquee">
+          <span><img src="./images/george_logo.png" /></span>
+          <span><img src="./images/aerial_technology.png" /></span>
+          <span><img src="./images/fast.png" /></span>
+          <span><img src="./images/vogue.png" /></span>
+          <span><img src="./images/nature_swing.png" /></span>
+          <span><img src="./images/gorilla.png" /></span>
+          <span><img src="./images/idea.png" /></span>
+        </marquee>
+        <div class="ws_logo-marq"></div>
+        <div class="ws_about-body">
+          <p class="ab-heading">
+            "Addiction is anything that draws life of<br />
+            meaning while making it seem better."
+          </p>
+          <div class="ab-body">
+            <div class="ab-body-left">
+              <img src="./images/person_2.png" alt="" />
+            </div>
+            <div class="ab-body-right">
+              <p class="section-heading">ABOUT ME</p>
+              <p class="section-details">Hey!</p>
+              <ul class="section-list-items">
+                <li>This is Ron Marino.</li>
+                <li>
+                  A creative frontend developer using React.js. Proficiency in
+                  HTML, CSS, JavaScript and Frontend frameworks.
+                </li>
+                <li>
+                  I have been working with web technologies for 6 years, 124
+                  days, 46 seconds.
+                </li>
+                <li>
+                  During this period, I gained hands-on experience with
+                  developing full-stack web application and CI/CD automation.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="ab-footer">
+            <div class="footer-content">
+              <p class="ft-header">07+</p>
+              <div class="ft-details">Years of Experience</div>
+            </div>
+            <div class="footer-content">
+              <p class="ft-header">24+</p>
+              <div class="ft-details">Company Served</div>
+            </div>
+            <div class="footer-content">
+              <p class="ft-header">270+</p>
+              <div class="ft-details">Completed Projects</div>
+            </div>
+            <div class="footer-content">
+              <p class="ft-header">270+</p>
+              <div class="ft-details">Satisfied <br />Client</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
 </html>
