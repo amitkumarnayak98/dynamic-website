@@ -1,0 +1,378 @@
+<body class="ws_body">
+    <header class="ws_body-header">
+      <h1>Hi there, I'm ABC.</h1>
+      <p>
+        Welcome to my digital space! I'm passionate
+        <b>Full Stack Developer</b> who loves crafting dynamic, scalable and
+        user-centric web applications.
+      </p>
+    </header>
+
+    <section id="navigation">
+      <nav class="ws_body-nav">
+        <div class="navigation_lists">
+          <ul id="nav" class="nav-items">
+            <a class="item"> About Me </a>
+            <a class="item">My Projects</a>
+            <a class="item">Contact Me</a>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section id="body">
+      <div class="ws_body-section">
+        <h1>About Me</h1>
+        <p class="section-one">
+          I'm ABC, a passionate Full Stack Developer with a degree in Computer
+          Science abd Engineering. Over the past two years, I've honed my skills
+          in both front-end and back-end development, creating dynamic, scalable
+          and user-centric web application. My expertise spans across a range of
+          technologies, allowing me to build everything from sleek, responsive
+          interface to robust server-side logic.
+        </p>
+        <p class="section-two">
+          Driven by a love for problem-solving and a commitment to continuous
+          learning. I thrive in environments where I can apply my technical
+          knowledge to deliver innovative solutions. Whether it's working on the
+          client side or driving into the complexities of the server side. I'm
+          dedicated to making the web a better place one line of code at a time.
+        </p>
+        <div>
+          <h3 class="header-section">My Skills</h3>
+          <ul>
+            <span class="image-item">
+              <img src="./images/php.png" alt="" />
+              <li>php</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/jquery.png" alt="" />
+              <li>jQuery</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/mysql.png" alt="" />
+              <li>MySQL</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/angular.png" alt="" />
+              <li>Angular</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/React.png" alt="" />
+              <li>React</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/node.png" alt="" />
+              <li>node</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/expressjs.png" alt="" />
+              <li>Express</li>
+            </span>
+            <span class="image-item">
+              <img src="./images/mongo.png" alt="" />
+              <li>Mongo DB</li>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-projects">
+      <h1>My Projects</h1>
+      <p>Here are some of the projects I've worked on:</p>
+      <h3>Trading Pro</h3>
+      <p>A trading application linked in it.</p>
+      <img src="./images/TradingApp.png" alt="" />
+      <h3>The Lion King</h3>
+      <p>An online multiplayer game.</p>
+      <img src="./images/Game.png" />
+      <h3>ExploreD</h3>
+      <p>A data dashboard for xyz.</p>
+      <img src="./images/DataDashApp.png" alt="" />
+    </section>
+
+    <section id="form">
+      <div class="ws_body-form">
+        <div class="form-section">
+          <h1 class="header-section">Contact</h1>
+          <div class="name-section">
+            <span>
+              <label for="fname">First Name:</label>
+              <input type="text" name="fname" />
+            </span>
+            <span>
+              <label for="lname">Last Name:</label>
+              <input type="text" name="lname" />
+            </span>
+          </div>
+          <span class="address">
+            <label for="address">Address:</label>
+            <input type="text" name="address" />
+          </span>
+          <div class="radio-section">
+            <p for="radio">What is your requirement?</p>
+            <span>
+              <input
+                type="radio"
+                id="Project"
+                name="requirement"
+                value="Project"
+              />
+              <label>Project</label>
+            </span>
+            <span>
+              <input
+                type="radio"
+                id="Courses"
+                name="requirement"
+                value="Courses"
+              />
+              <label>Courses</label>
+            </span>
+            <span>
+              <input
+                type="radio"
+                id="Mentorship"
+                name="requirement"
+                value="Mentorship"
+              />
+              <label>Mentorship</label>
+            </span>
+          </div>
+          <div class="checkbox-section">
+            <p>Let me know a little about you.</p>
+            <span>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="multiple"
+                id="checkbox1"
+                value="html"
+              />
+              <label for="checkbox1">You are a student.</label>
+            </span>
+            <span>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="multiple"
+                id="checkbox2"
+                value="html"
+              />
+              <label for="checkbox1">You are a professional.</label>
+            </span>
+            <span>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="multiple"
+                id="checkbox3"
+                value="html"
+              />
+              <label for="checkbox1">You are a Business.</label>
+            </span>
+            <span>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="multiple"
+                id="checkbox4"
+                value="html"
+              />
+              <label for="checkbox1">Subscribe to newsletter.</label>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button>Submit</button>
+
+    <p>Or you can reach me at [Your Email Address].</p>
+
+    <footer class="ws_footer">
+      &copy; 2024 My Portfolio. All rights reserved.
+    </footer>
+
+    <script>
+      // var navItems = ["About Me", "My Projects", "Contact Me"];
+      // const listHTML = navItems
+      //   .map((each) => `<a class="nav-item">${each}</a>`)
+      //   .join("");
+      // document.getElementById("nav").innerHTML = listHTML;
+    </script>
+  </body>
+
+
+======================================================================================
+
+
+.ws_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ws_body-header {
+  background-color: rgb(1, 155, 1);
+  color: white;
+  display: flex;
+  row-gap: 10px;
+  padding: 25px 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ws_body-nav {
+  /* padding: 0px 0px; */
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+}
+
+.header-section {
+  padding: 10px 10px;
+}
+
+.navigation_lists {
+  height: inherit;
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+  height: inherit;
+  align-items: center;
+}
+
+.image-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.item {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.item:hover {
+  background-color: white;
+  color: black;
+}
+
+.image-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ws_body-section {
+  padding: 50px 35px 20px 35px;
+}
+
+.section-one {
+  padding: 20px 20px;
+}
+
+.section-two {
+  padding: 0px 20px 20px 20px;
+}
+
+.ws_body-form {
+  margin: 20px 20px;
+}
+
+.form-section {
+  /* width: 94.9%; */
+  /* margin: 20px 20px; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px 20px;
+}
+
+.name-section,
+.radio-section,
+.checkbox-section {
+  padding: 6px 6px 15px 12px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.address {
+  margin: 2px 6px 15px 12px;
+}
+
+.radio-section,
+.checkbox-section {
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.radio-section span {
+  padding-left: 5px;
+}
+
+.checkbox-section span {
+  display: flex;
+  column-gap: 10px !important;
+  padding-left: 5px;
+}
+
+.ws_footer {
+  background-color: #333;
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+
+
+
+=========================JS===================
+// document
+    //   .querySelectorAll("section")
+    //   .forEach((section) => (current = section.getAttribute("id")));
+
+    // // window.location.href.split('#')[1]
+    // console.log(current, "avx");
+
+    // if (listItem.getAttribute("href") === "#" + current) {
+    //   listItem.classList.add("active");
+    //   console.log("true");
+    // }
+    // listItem.classList.remove("active");
+    // console.log("false");
+
+    // listItem.classList.remove("active");
+
+// window.addEventListener("scroll", () => {
+//   let current = "";
+
+//   document.querySelectorAll("section").forEach((section) => {
+//     console.log("section", section);
+//     const sectionTop = section.offsetTop;
+//     if (pageYOffset >= sectionTop - 60) {
+//       current = section.getAttribute("id");
+//     }
+//     console.log("current", current);
+//   });
+
+//   document.querySelectorAll("span ul li a").forEach((link) => {
+//     link.classList.remove("active");
+//     console.log("link", link);
+
+//     if (link.getAttribute("href") === "#" + current) {
+//       link.classList.add("active");
+//     }
+//   });
+// });
