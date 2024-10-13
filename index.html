@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <header>
+    <header style="display: none">
       <div class="ws_header">
         <h1>Galleon</h1>
         <span>
@@ -25,11 +25,12 @@
         </span>
       </div>
     </header>
-    <section id="section0">
+    <section id="section0" style="display: none">
       <div class="ws_body">
         <div class="ws_body-header">
           <h1>Full-Stack <br />Developer</h1>
-          <div class="ws_body-btn" id="hireMeBtn" onclick="timeClock()">
+          <div class="ws_body-btn" id="hireMeBtn">
+            <!-- onclick="timeClock()" -->
             <span class="btn-text"> Hire Me </span>
             <span id="arrow" class="arrow"></span>
           </div>
@@ -46,7 +47,7 @@
         <span></span><span></span><span></span>
       </div>
     </section>
-    <section id="section1">
+    <section id="section1" style="display: none">
       <div class="ws_about">
         <div class="ws_logo-marq"></div>
         <marquee width="100%" direction="left" height="60px" class="ws_marquee">
@@ -109,6 +110,121 @@
         </div>
       </div>
     </section>
+
+    <form
+      id="myForm"
+      name="myForm"
+      style="display: flex; flex-direction: column; gap: 20px"
+    >
+      <span>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+      </span>
+
+      <span>
+        <label for="address">Address:</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Enter your address"
+          required
+        />
+      </span>
+
+      <span>
+        <label for="address">Pin Code:</label>
+        <input type="number" id="pin-code" name="pin-code" />
+      </span>
+
+      <span>
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+        />
+      </span>
+      <div>
+        <label>Are you studying?</label>
+        <span class="radio-group">
+          <input type="radio" id="yes" name="studying" value="yes" required />
+          <label for="yes">Yes</label>
+
+          <input type="radio" id="no" name="studying" value="no" />
+          <label for="no">No</label>
+        </span>
+      </div>
+
+      <div class="form-group">
+        <label>What are you studying?</label>
+        <span class="checkbox-group">
+          <input type="checkbox" id="mtech" name="study[]" value="mtech" />
+          <label for="mtech">MTech</label>
+
+          <input type="checkbox" id="btech" name="study[]" value="btech" />
+          <label for="btech">BTech</label>
+
+          <input type="checkbox" id="msc" name="study[]" value="msc" />
+          <label for="msc">MSc</label>
+
+          <input
+            type="checkbox"
+            id="minor-school"
+            name="study[]"
+            value="minor-school"
+          />
+          <label for="minor-school">Minor School</label>
+
+          <input
+            type="checkbox"
+            id="high-school"
+            name="study[]"
+            value="high-school"
+          />
+          <label for="high-school">High School</label>
+        </span>
+
+        <span class="increment-btn">
+          <button class="button-63" onclick="buttonClick('increment')">
+            +
+          </button>
+          <input
+            type="number"
+            class="input-info"
+            id="increment-input"
+            disabled
+          />
+          <button class="button-63" onclick="buttonClick('decrement')">
+            -
+          </button>
+          <p id="increment-input-info"></p>
+        </span>
+
+        <div class="table-info">
+          <table id="dataTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Roll No.</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Rows will be inserted here dynamically -->
+            </tbody>
+          </table>
+        </div>
+        <button type="button" onclick="getFormValue()">Submit</button>
+      </div>
+    </form>
     <script src="./main.js"></script>
   </body>
 </html>
